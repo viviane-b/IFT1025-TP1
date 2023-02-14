@@ -23,32 +23,33 @@ Les instructions
 ----------------
 
 1.  `buy-hero`
-    Format de l'instruction:*   Nom du héro {string}
+    Format de l'instruction:
+    *   Nom du héro {string}
     *   Catégorie (common=0, uncommon=1, rare=2, epic=3, legendary=4) {int}
     *   Coût en argent {double}
     *   Coût en armures {int}
     *   Points de vie {double}
   
 3.  `buy-armure`
-    Format de l'instruction:*   Nombre d'armures achetées {int}
+    Format de l'instruction:
+    *   Nombre d'armures achetées {int}
     *   Prix par armure {int}
   
 5.  `do-quest`
-    Format de l'instruction:*   Catégorie (common=0, uncommon=1, rare=2, epic=3, legendary=4) {int}
+    Format de l'instruction:
+    *   Catégorie (common=0, uncommon=1, rare=2, epic=3, legendary=4) {int}
     *   Coût en points de vie {double}
     *   Récompense en argent {int}
     *   Récompense en armures {int}
   
 7.  `train-hero`
-    Format de l'instruction:*   Nom du héro {string}
+    Format de l'instruction:
+    *   Nom du héro {string}
 
 Aperçu
 ------
 
-Dès le début, le programme doit être exécuté avec des commandes passées en paramètre c.-à-d.: args  
-De plus, plusieurs types de commandes peuvent être passé et avec **plusieurs** variables! Le programme  
-devra reconnaitre le niveau de difficulté de la quête et envoyer le bon héros. Finalement, le programme  
-devra permettre l'amélioration des héros en échange d'armure et d'argent.
+Dès le début, le programme doit être exécuté avec des commandes passées en paramètre c.-à-d.: args. De plus, plusieurs types de commandes peuvent être passé et avec **plusieurs** variables! Le programme devra reconnaitre le niveau de difficulté de la quête et envoyer le bon héros. Finalement, le programme devra permettre l'amélioration des héros en échange d'armure et d'argent.
 
 Voici un exemple d'utilisation:
 
@@ -64,9 +65,7 @@ Voici un exemple d'utilisation:
 
 Lorsqu'on achète un héros, il faut donc remplir certaines contraintes comme le coût en argent et en armure.
 
-Acheter de l'armure est un critère primordial. En effet, à moins d'avoir complété une quête avec succès,  
-il n'existerait pas d'autres moyennes pour en procurer. Le prix des armures/unité sera l'objet d'une des  
-paramètres que le programme devra savoir gérer.
+Acheter de l'armure est un critère primordial. En effet, à moins d'avoir complété une quête avec succès, il n'existerait pas d'autres moyennes pour en procurer. Le prix des armures/unité sera l'objet d'une des paramètres que le programme devra savoir gérer.
 
 Le programme doit obligatoirement accepter les quêtes qu'on lui passe. De plus, le niveau des héros envoyés devra être le même que la quête. S'il existe des héros remplissant ce critère, ils doivent être envoyés en priorité. S'il n'existe pas de héros de même niveau, c'est alors qu'on peut aller chercher un héros qui suit le niveau en rang. Le programme donc devra faire un triage au sein d'une **liste** de héros.
 
@@ -88,7 +87,7 @@ Nous vous demandons uniquement d’avoir quelques fichiers et quelques fonctions
 *   Un fichier permettant le lancement des quêtes(`Quete.java`)
 *   Un fichier qui regroupe toutes les informations en lien avec le guild(`Guild.java`)
 
- **Nottez que vos classes ne devraient pas êtres lourds si vous subdivisez bien votre programme.**
+ **Notez que vos classes ne devraient pas êtres lourds si vous subdivisez bien votre programme.**
 
 Fonctionnement
 --------------
