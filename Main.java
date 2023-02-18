@@ -42,4 +42,7 @@ public class Main {
         int nbArmures = command.nextInt();
         return new Guilde(montantInitial, nbArmures);
     }
+
+
+
 }
